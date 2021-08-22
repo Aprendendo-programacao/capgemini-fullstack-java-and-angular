@@ -107,3 +107,11 @@
   * Referencie assuntos relacionados
 
     * *Issues* do GitHub
+
+* **Exemplo**
+
+  ![](./assets/exemplo-de-commit-estruturado.png)
+
+  * "Closes #1" é a referência para uma *issue do GitHub* que foi resolvido (*closed*)
+
+    > Sintaxe para relacionar uma Issue ao Commit: `Closes #ID da issue>`
