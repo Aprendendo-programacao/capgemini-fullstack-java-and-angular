@@ -19,3 +19,5 @@
 ### 5XX
 
 * Erro no lado do servidor
+
+* **IMPORTANTE**: nunca expor a *stack trace* de um erro para o cliente (evitar vazamento de dados)
