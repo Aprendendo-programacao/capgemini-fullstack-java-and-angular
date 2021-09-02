@@ -1,0 +1,6 @@
+package me.gabreuw.productcatalog.repositories;
+
+import me.gabreuw.productcatalog.model.Product;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProductRepository extends CrudRepository<Product, Long> {}
