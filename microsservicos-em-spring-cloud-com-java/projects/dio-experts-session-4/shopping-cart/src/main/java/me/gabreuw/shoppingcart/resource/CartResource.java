@@ -24,6 +24,7 @@ public class CartResource {
         Cart cart = cartRepository
                 .findById(id)
                 .orElse(new Cart(id));
+
         cart.getItems().add(item);
 
         return cartRepository.save(cart);
